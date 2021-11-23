@@ -1,0 +1,478 @@
+body {
+
+    font-family: 'Ubuntu', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h2 {
+    color: #333333;
+    font-size: 250%;
+    text-align: center;
+    border-bottom: 1px;
+    padding-bottom: 2em;
+
+}
+
+h2:after {
+    display: block;
+    height: 1px;
+    background-color: #0d6efd;
+    width: 100px;
+    content: " ";
+    margin: 5px auto;
+    margin-bottom: 20px;
+
+}
+
+
+section {
+
+    padding: 110px 0;
+}
+
+.button-cv {
+
+    background-color: #0d6efd;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 35px 10px 35px;
+    box-shadow: 0px 8px 20px 5px rgba(13, 110, 253, 0.5);
+    margin-right: 20px;
+}
+
+.button-cv:hover {
+
+    box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+nav {
+
+    box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+
+}
+
+.nav-link:hover {
+
+
+
+    border-bottom: 1px solid #0d6efd;
+
+
+
+
+
+
+}
+
+
+/* HEADER ************************************************/
+
+header {
+
+    padding: 150px 0;
+}
+
+header h1 {
+    color: rgb(65, 65, 65);
+}
+
+h1 i {
+
+    padding: 15px;
+}
+
+.header-prez {
+
+    padding: 2em 5em
+}
+
+.header-prez p {
+
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+.button-header {
+
+    padding: 0 5em
+}
+
+
+
+/* MES COMPETENCE ************************************************/
+
+#mes-competence {
+
+    background-color: #0d6efd;
+    margin: 0 auto;
+
+
+}
+
+.rond {
+
+
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0);
+
+}
+
+
+.rond i {
+
+    color: #0d6efd;
+}
+
+.icone-text-competence p {
+
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+
+
+}
+
+
+#mes-competence h2 {
+
+    color: white;
+    margin: 0 auto;
+}
+
+#mes-competence h2::after {
+
+    background-color: #fff;
+
+}
+
+
+
+
+/* TECHNOLOGIES ************************************************/
+
+.cadre-technologies {
+
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    max-width: 19em;
+    margin: 0 13px;
+
+
+
+
+
+
+}
+
+.cadre-1 {
+    border-bottom: 8px solid #ff5722;
+}
+
+.cadre-2 {
+    border-bottom: 8px solid #2196f3;
+}
+
+.cadre-3 {
+    border-bottom: 8px solid #5e3b7f;
+}
+
+.cadre-4 {
+    border-bottom: 8px solid #000000;
+}
+
+
+.cadre-technologies p {
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(27, 27, 27);
+
+}
+
+
+/* PRESENTATION ************************************************/
+
+.signature img {
+
+    width: 18%;
+    margin-right: 0px;
+    margin-top: 80px;
+
+
+}
+
+.bloc-prez {}
+
+
+
+/* PORTFOLIO ************************************************/
+
+#carousel {
+
+
+    overflow: auto;
+    overflow: hidden;
+    margin-bottom: 20vh;
+}
+
+.taille-images img {
+
+    width: 50vw;
+    border-radius: 20px;
+    padding-right: 20px;
+
+
+
+}
+
+.images {
+
+
+    animation-duration: 20s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes mesImages {
+
+
+    0% {
+
+        transform: translateX(0vw);
+    }
+
+    16% {
+        transform: translateX(-50vw);
+
+    }
+
+    32% {
+
+        transform: translateX(-100vw);
+    }
+
+    48% {
+
+        transform: translateX(-150vw);
+    }
+
+    64% {
+
+        transform: translateX(-200vw);
+    }
+
+    80% {
+
+        transform: translateX(-250vw);
+    }
+
+
+
+
+}
+
+
+
+/* CONTACT ************************************************/
+
+
+#contact {
+
+    background: linear-gradient(to right, #193660, #0d6efd);
+    padding: 50px 0;
+
+}
+
+.text-contact h1 {
+
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.mes-contact i {
+
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 10px 0px 40px;
+
+}
+
+.text-contact h3 {
+
+    font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.text-contact p {
+
+    color: #fff;
+    margin-left: 40px;
+
+}
+
+.mes-reseaux i {
+
+    color: #fff;
+    font-size: 40px;
+}
+
+
+.icon-item i:hover {
+
+    color: #193660;
+}
+
+.icon-item {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.icon-link {
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--color-icon);
+    width: 4rem;
+    height: 4rem;
+    transition: .5s linear;
+    position: relative;
+    z-index: 1;
+
+}
+
+.icon-link:hover {
+    color: #fff;
+}
+
+.icon-link i {
+    margin: auto;
+}
+
+.icon-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: 4rem;
+    background: #fff;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0);
+    transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+}
+
+.icon-link:hover::before {
+    transform: scale(1);
+}
+
+.icon-item:nth-child(1) .mes-reseaux a:hover:before {
+    background: var(--social-icon1);
+}
+
+.icon-item:nth-child(2) .mes-reseaux a:hover:before {
+    background: var(--social-icon2);
+}
+
+
+
+
+
+/* media */
+
+
+@media screen and (max-width: 768px) {
+
+    .cadre-technologies {
+
+        max-width: 50em;
+        margin: 20px 0;
+
+    }
+
+    .taille-images img {
+
+        width: 100vw;
+        border-radius: 20px;
+
+
+    }
+
+    #carousel {
+
+
+        overflow: auto;
+
+        margin-bottom: 10vh;
+
+    }
+
+    @keyframes mesImages {
+
+
+        0% {
+
+            transform: translateX(0vw);
+        }
+
+        16% {
+            transform: translateX(-110vw);
+
+        }
+
+        32% {
+
+            transform: translateX(-210vw);
+        }
+
+        48% {
+
+            transform: translateX(-310vw);
+        }
+
+        64% {
+
+            transform: translateX(-410vw);
+        }
+
+        80% {
+
+            transform: translateX(-510vw);
+        }
+
+
+
+
+    }
+
+}
